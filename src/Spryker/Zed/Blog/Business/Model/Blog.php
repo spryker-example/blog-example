@@ -4,13 +4,13 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Blog\Business\Model;
+namespace SprykerExample\Zed\Blog\Business\Model;
 
 use Generated\Shared\Transfer\BlogCriteriaFilterTransfer;
 use Generated\Shared\Transfer\BlogTransfer;
 use Generated\Shared\Transfer\SpyBlogEntityTransfer;
-use Spryker\Zed\Blog\Persistence\BlogEntityManagerInterface;
-use Spryker\Zed\Blog\Persistence\BlogRepositoryInterface;
+use SprykerExample\Zed\Blog\Persistence\BlogEntityManagerInterface;
+use SprykerExample\Zed\Blog\Persistence\BlogRepositoryInterface;
 use Spryker\Zed\Kernel\Persistence\EntityManager\TransactionTrait;
 
 class Blog
@@ -18,18 +18,18 @@ class Blog
     use TransactionTrait;
 
     /**
-     * @var \Spryker\Zed\Blog\Persistence\BlogRepositoryInterface
+     * @var \SprykerExample\Zed\Blog\Persistence\BlogRepositoryInterface
      */
     protected $blogRepository;
 
     /**
-     * @var \Spryker\Zed\Blog\Persistence\BlogEntityManagerInterface
+     * @var \SprykerExample\Zed\Blog\Persistence\BlogEntityManagerInterface
      */
     protected $blogEntityManager;
 
     /**
-     * @param \Spryker\Zed\Blog\Persistence\BlogRepositoryInterface $blogRepository
-     * @param \Spryker\Zed\Blog\Persistence\BlogEntityManagerInterface $blogEntityManager
+     * @param \SprykerExample\Zed\Blog\Persistence\BlogRepositoryInterface $blogRepository
+     * @param \SprykerExample\Zed\Blog\Persistence\BlogEntityManagerInterface $blogEntityManager
      */
     public function __construct(
         BlogRepositoryInterface $blogRepository,

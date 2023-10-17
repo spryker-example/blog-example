@@ -4,13 +4,13 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Blog\Persistence;
+namespace SprykerExample\Zed\Blog\Persistence;
 
 use Orm\Zed\Blog\Persistence\SpyBlogCommentQuery;
 use Orm\Zed\Blog\Persistence\SpyBlogCustomerQuery;
 use Orm\Zed\Blog\Persistence\SpyBlogQuery;
 use Spryker\Zed\Kernel\Persistence\AbstractPersistenceFactory;
-use Spryker\Zed\Blog\BlogDependencyProvider;
+use SprykerExample\Zed\Blog\BlogDependencyProvider;
 
 class BlogPersistenceFactory extends AbstractPersistenceFactory
 {

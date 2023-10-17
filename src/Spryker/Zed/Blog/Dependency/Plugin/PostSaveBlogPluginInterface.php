@@ -4,7 +4,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Blog\Dependency\Plugin;
+namespace SprykerExample\Zed\Blog\Dependency\Plugin;
 
 use Generated\Shared\Transfer\BlogTransfer;
 

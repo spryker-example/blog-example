@@ -18,9 +18,9 @@ use Generated\Shared\Transfer\SpyBlogEntityTransfer;
 use Generated\Shared\Transfer\SpyCustomerEntityTransfer;
 use Orm\Zed\Blog\Persistence\SpyBlogQuery;
 use Propel\Runtime\Propel;
-use Spryker\Zed\Blog\Business\BlogFacade;
-use Spryker\Zed\Blog\Persistence\BlogEntityManager;
-use Spryker\Zed\Blog\Persistence\BlogRepository;
+use SprykerExample\Zed\Blog\Business\BlogFacade;
+use SprykerExample\Zed\Blog\Persistence\BlogEntityManager;
+use SprykerExample\Zed\Blog\Persistence\BlogRepository;
 
 class BlogFacadeTest extends Unit
 {
@@ -173,7 +173,7 @@ class BlogFacadeTest extends Unit
     }
 
     /**
-     * @return \Spryker\Zed\Blog\Persistence\BlogRepository
+     * @return \SprykerExample\Zed\Blog\Persistence\BlogRepository
      */
     protected function createBlogRepository()
     {
@@ -181,7 +181,7 @@ class BlogFacadeTest extends Unit
     }
 
     /**
-     * @return \Spryker\Zed\Blog\Persistence\BlogEntityManager
+     * @return \SprykerExample\Zed\Blog\Persistence\BlogEntityManager
      */
     protected function createBlogEntityManager()
     {
@@ -189,7 +189,7 @@ class BlogFacadeTest extends Unit
     }
 
     /**
-     * @return \Spryker\Zed\Blog\Business\BlogFacade
+     * @return \SprykerExample\Zed\Blog\Business\BlogFacade
      */
     protected function createBlogFacade()
     {

@@ -4,12 +4,12 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Blog\Communication\Controller;
+namespace SprykerExample\Zed\Blog\Communication\Controller;
 
 use Spryker\Zed\Kernel\Communication\Controller\AbstractController;
 
 /**
- *  @method \Spryker\Zed\Blog\Persistence\BlogRepositoryInterface getRepository()
+ *  @method \SprykerExample\Zed\Blog\Persistence\BlogRepositoryInterface getRepository()
  */
 class IndexController extends AbstractController
 {

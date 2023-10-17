@@ -4,7 +4,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Blog\Business;
+namespace SprykerExample\Zed\Blog\Business;
 
 use Generated\Shared\Transfer\BlogCriteriaFilterTransfer;
 use Generated\Shared\Transfer\BlogTransfer;
@@ -12,9 +12,9 @@ use Generated\Shared\Transfer\SpyBlogEntityTransfer;
 use Spryker\Zed\Kernel\Business\AbstractFacade;
 
 /**
- * @method \Spryker\Zed\Blog\Business\BlogBusinessFactory getFactory()
- * @method \Spryker\Zed\Blog\Persistence\BlogRepositoryInterface getRepository()
- * @method \Spryker\Zed\Blog\Persistence\BlogEntityManagerInterface getEntityManager()
+ * @method \SprykerExample\Zed\Blog\Business\BlogBusinessFactory getFactory()
+ * @method \SprykerExample\Zed\Blog\Persistence\BlogRepositoryInterface getRepository()
+ * @method \SprykerExample\Zed\Blog\Persistence\BlogEntityManagerInterface getEntityManager()
  */
 class BlogFacade extends AbstractFacade
 {
