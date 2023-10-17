@@ -4,7 +4,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Blog\Persistence;
+namespace SprykerExample\Zed\Blog\Persistence;
 
 use Generated\Shared\Transfer\BlogCommentTransfer;
 use Generated\Shared\Transfer\BlogTransfer;
@@ -16,7 +16,7 @@ use Spryker\Zed\Kernel\Persistence\AbstractEntityManager;
 use Spryker\Zed\Kernel\Persistence\EntityManager\EntityManagerInterface;
 
 /**
- * @method \Spryker\Zed\Blog\Persistence\BlogPersistenceFactory getFactory()
+ * @method \SprykerExample\Zed\Blog\Persistence\BlogPersistenceFactory getFactory()
  */
 class BlogEntityManager extends AbstractEntityManager implements BlogEntityManagerInterface, EntityManagerInterface
 {

@@ -4,20 +4,20 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Blog\Business;
+namespace SprykerExample\Zed\Blog\Business;
 
-use Spryker\Zed\Blog\Business\Model\Blog;
-use Spryker\Zed\Blog\Persistence\BlogRepository;
+use SprykerExample\Zed\Blog\Business\Model\Blog;
+use SprykerExample\Zed\Blog\Persistence\BlogRepository;
 use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
 
 /**
- * @method \Spryker\Zed\Blog\Persistence\BlogRepositoryInterface getRepository()
- * @method \Spryker\Zed\Blog\Persistence\BlogEntityManagerInterface getEntityManager()
+ * @method \SprykerExample\Zed\Blog\Persistence\BlogRepositoryInterface getRepository()
+ * @method \SprykerExample\Zed\Blog\Persistence\BlogEntityManagerInterface getEntityManager()
  */
 class BlogBusinessFactory extends AbstractBusinessFactory
 {
     /**
-     * @return \Spryker\Zed\Blog\Business\Model\Blog
+     * @return \SprykerExample\Zed\Blog\Business\Model\Blog
      */
     public function createBlog()
     {

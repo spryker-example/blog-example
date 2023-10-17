@@ -4,7 +4,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Blog\Persistence;
+namespace SprykerExample\Zed\Blog\Persistence;
 
 use Generated\Shared\Transfer\BlogCommentTransfer;
 use Generated\Shared\Transfer\BlogCriteriaFilterTransfer;
@@ -23,7 +23,7 @@ use Spryker\Zed\PropelOrm\Business\Runtime\ActiveQuery\Criteria;
 use Spryker\Zed\Kernel\Persistence\AbstractRepository;
 
 /**
- * @method \Spryker\Zed\Blog\Persistence\BlogPersistenceFactory getFactory()
+ * @method \SprykerExample\Zed\Blog\Persistence\BlogPersistenceFactory getFactory()
  */
 class BlogRepository extends AbstractRepository implements BlogRepositoryInterface
 {
