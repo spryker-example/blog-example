@@ -1,5 +1,5 @@
 {
-    "name": "spryker/blog-example",
+    "name": "spryker-example/blog-example",
     "description": "Repository module",
     "license": "proprietary",
     "require": {},
